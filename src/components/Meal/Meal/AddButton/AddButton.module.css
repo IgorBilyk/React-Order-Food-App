@@ -1,0 +1,37 @@
+.addButton_container div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 6rem;
+}
+.addButton_container div:nth-child(1) input{
+    width: 2.5rem ;
+    border: grey solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.addButton_container div:nth-child(2) button{
+    border: none;
+    width: 80px;
+    background:orange;
+    color: #fff;
+    padding: .6rem;
+    margin: .4rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -ms-transition:all .5s ease;
+    -o-transition:all .5s ease;
+}
+.addButton_container div:nth-child(2) button:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px 10px grey;
+    
+}
