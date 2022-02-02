@@ -20,7 +20,7 @@ const AddButton = ({
   };
   return (
     <div className={styles.addButton_container}>
-      <div>
+      <div className={styles.amount_container}>
         <p>Amount</p>
         <input
           type="number"

@@ -57,3 +57,9 @@
     color: orange;
     border: 2px solid orange
 }
+
+@media screen and (max-width: 700px){
+    .cart_inner_container{
+        width: 100%;
+    }
+}
